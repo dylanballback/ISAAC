@@ -1,4 +1,71 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ISAAC-rescue:DIODE-pspice D?
+U 1 1 616C6D15
+P 5225 2775
+F 0 "D?" V 5271 2647 50  0000 R CNN
+F 1 "DIODE" V 5180 2647 50  0000 R CNN
+F 2 "" H 5225 2775 50  0001 C CNN
+F 3 "~" H 5225 2775 50  0001 C CNN
+	1    5225 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ISAAC-rescue:R_Small_US-Device R?
+U 1 1 616CD1CD
+P 4500 3200
+F 0 "R?" V 4400 3200 50  0000 C CNN
+F 1 "10K" V 4600 3200 50  0000 C CNN
+F 2 "" H 4500 3200 50  0001 C CNN
+F 3 "~" H 4500 3200 50  0001 C CNN
+	1    4500 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L IRF510:IRF510 Q?
+U 1 1 616D854C
+P 4500 2850
+F 0 "Q?" H 4500 3165 50  0000 C CNN
+F 1 "IRF510" H 4500 3074 50  0000 C CNN
+F 2 "TO220" H 4500 2850 50  0001 L BNN
+F 3 "" H 4500 2850 50  0001 L BNN
+	1    4500 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 4675 2125 1    50   Input ~ 0
+SOL1
+Text GLabel 4060 2950 0    50   Input ~ 0
+GATE1
+Wire Wire Line
+	4675 2150 4675 2675
+Wire Wire Line
+	4060 2950 4300 2950
+Wire Wire Line
+	4300 2950 4300 3200
+Wire Wire Line
+	4300 3200 4400 3200
+Connection ~ 4300 2950
+Wire Wire Line
+	4700 2950 4700 3080
+Wire Wire Line
+	4700 3200 4600 3200
+Wire Wire Line
+	4700 3080 4770 3080
+Connection ~ 4700 3080
+Wire Wire Line
+	4700 3080 4700 3200
 $EndSCHEMATC
