@@ -1,0 +1,66 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L pspice:DIODE D?
+U 1 1 616C6D15
+P 6025 2825
+F 0 "D?" V 6071 2697 50  0000 R CNN
+F 1 "DIODE" V 5980 2697 50  0000 R CNN
+F 2 "" H 6025 2825 50  0001 C CNN
+F 3 "~" H 6025 2825 50  0001 C CNN
+	1    6025 2825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 616CD1CD
+P 5275 3175
+F 0 "R?" V 5175 3175 50  0000 C CNN
+F 1 "10K" V 5375 3175 50  0000 C CNN
+F 2 "" H 5275 3175 50  0001 C CNN
+F 3 "~" H 5275 3175 50  0001 C CNN
+	1    5275 3175
+	0    1    1    0   
+$EndComp
+$Comp
+L IRF510:IRF510 Q?
+U 1 1 616D854C
+P 5275 2825
+F 0 "Q?" H 5275 3140 50  0000 C CNN
+F 1 "IRF510" H 5275 3049 50  0000 C CNN
+F 2 "TO220" H 5275 2825 50  0001 L BNN
+F 3 "" H 5275 2825 50  0001 L BNN
+	1    5275 2825
+	1    0    0    -1  
+$EndComp
+Text GLabel 5475 2175 1    50   Input ~ 0
+SOL1
+Wire Wire Line
+	5475 3175 5375 3175
+Wire Wire Line
+	5175 3175 5075 3175
+Wire Wire Line
+	5075 3175 5075 2925
+Text GLabel 4850 2925 0    50   Input ~ 0
+GATE1
+Wire Wire Line
+	4850 2925 5075 2925
+Connection ~ 5075 2925
+Wire Wire Line
+	5475 2925 5475 3175
+Wire Wire Line
+	5475 2200 5475 2725
+$EndSCHEMATC
