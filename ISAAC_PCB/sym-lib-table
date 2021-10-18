@@ -207,4 +207,5 @@
   (lib (name Video)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Video.lib)(options "")(descr ""))
   (lib (name New_Library)(type Legacy)(uri ${KIPRJMOD}/New_Library.lib)(options "")(descr ""))
   (lib (name usini_sensors)(type Legacy)(uri ${KIPRJMOD}/Symbols/usini_sensors.lib)(options "")(descr ""))
+  (lib (name XT60PW-M)(type Legacy)(uri ${KIPRJMOD}/Symbols/XT60PW-M.lib)(options "")(descr ""))
 )
