@@ -206,4 +206,5 @@
   (lib (name Valve)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Valve.lib)(options "")(descr ""))
   (lib (name Video)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Video.lib)(options "")(descr ""))
   (lib (name New_Library)(type Legacy)(uri ${KIPRJMOD}/New_Library.lib)(options "")(descr ""))
+  (lib (name usini_sensors)(type Legacy)(uri ${KIPRJMOD}/Symbols/usini_sensors.lib)(options "")(descr ""))
 )
