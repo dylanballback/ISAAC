@@ -38,7 +38,7 @@ $EndComp
 Text GLabel 1150 1075 0    50   Input ~ 0
 GATE1
 $Comp
-L New_Library:DMN4026SSD U2
+L ISAAC-rescue:DMN4026SSD-New_Library U2
 U 1 1 616BD976
 P 2500 1325
 F 0 "U2" H 2550 1990 50  0000 C CNN
@@ -181,7 +181,7 @@ $EndComp
 Text GLabel 1150 2075 0    50   Input ~ 0
 GATE3
 $Comp
-L New_Library:DMN4026SSD U3
+L ISAAC-rescue:DMN4026SSD-New_Library U3
 U 1 1 6171067C
 P 2500 2325
 F 0 "U3" H 2550 2990 50  0000 C CNN
@@ -324,7 +324,7 @@ $EndComp
 Text GLabel 1150 3075 0    50   Input ~ 0
 GATE5
 $Comp
-L New_Library:DMN4026SSD U4
+L ISAAC-rescue:DMN4026SSD-New_Library U4
 U 1 1 61716C15
 P 2500 3325
 F 0 "U4" H 2550 3990 50  0000 C CNN
@@ -467,7 +467,7 @@ $EndComp
 Text GLabel 1150 4075 0    50   Input ~ 0
 GATE7
 $Comp
-L New_Library:DMN4026SSD U5
+L ISAAC-rescue:DMN4026SSD-New_Library U5
 U 1 1 6171B38E
 P 2500 4325
 F 0 "U5" H 2550 4990 50  0000 C CNN
@@ -610,7 +610,7 @@ $EndComp
 Text GLabel 4850 1075 0    50   Input ~ 0
 GATE9
 $Comp
-L New_Library:DMN4026SSD U7
+L ISAAC-rescue:DMN4026SSD-New_Library U7
 U 1 1 61730CEE
 P 6200 1325
 F 0 "U7" H 6250 1990 50  0000 C CNN
@@ -742,7 +742,7 @@ $EndComp
 Text GLabel 4850 2025 0    50   Input ~ 0
 GATE11
 $Comp
-L New_Library:DMN4026SSD U8
+L ISAAC-rescue:DMN4026SSD-New_Library U8
 U 1 1 6173F917
 P 6200 2275
 F 0 "U8" H 6250 2940 50  0000 C CNN
@@ -885,7 +885,7 @@ $EndComp
 Text GLabel 4850 3025 0    50   Input ~ 0
 GATE13
 $Comp
-L New_Library:DMN4026SSD U9
+L ISAAC-rescue:DMN4026SSD-New_Library U9
 U 1 1 6178B13B
 P 6200 3275
 F 0 "U9" H 6250 3940 50  0000 C CNN
@@ -1028,7 +1028,7 @@ $EndComp
 Text GLabel 4850 4075 0    50   Input ~ 0
 GATE15
 $Comp
-L New_Library:DMN4026SSD U10
+L ISAAC-rescue:DMN4026SSD-New_Library U10
 U 1 1 6179A8D8
 P 6200 4325
 F 0 "U10" H 6250 4990 50  0000 C CNN
