@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -926,124 +926,58 @@ Text GLabel 9250 2175 0    50   Input ~ 0
 SOL12
 Text GLabel 9250 2075 0    50   Input ~ 0
 SOL11
-Text GLabel 1250 5225 0    50   Input ~ 0
-GATE2
-Text GLabel 1250 5125 0    50   Input ~ 0
-GATE1
-Text GLabel 1250 6225 0    50   Input ~ 0
-GATE10
-Text GLabel 1250 6125 0    50   Input ~ 0
-GATE9
-Text GLabel 1250 6025 0    50   Input ~ 0
-GATE8
-Text GLabel 1250 5925 0    50   Input ~ 0
-GATE7
-Text GLabel 1250 5725 0    50   Input ~ 0
-GATE6
-Text GLabel 1250 5625 0    50   Input ~ 0
-GATE5
-Text GLabel 1250 5525 0    50   Input ~ 0
-GATE4
-Text GLabel 1250 5425 0    50   Input ~ 0
-GATE3
-Text GLabel 1250 6425 0    50   Input ~ 0
-GATE11
-Text GLabel 1250 6525 0    50   Input ~ 0
-GATE12
-Text GLabel 1250 6625 0    50   Input ~ 0
-GATE13
-Text GLabel 1250 6725 0    50   Input ~ 0
-GATE14
-Text GLabel 1250 6925 0    50   Input ~ 0
-GATE15
-Text GLabel 1250 7025 0    50   Input ~ 0
-GATE16
-Text GLabel 9275 3850 0    50   Input ~ 0
-MPU_SDA
-Text GLabel 3025 7025 2    50   Input ~ 0
+Text GLabel 4750 5700 0    50   Input ~ 0
 MPU_SDA
 Wire Wire Line
-	9275 3850 9575 3850
-Wire Wire Line
-	2800 7025 3025 7025
+	4750 5700 5050 5700
 $Comp
 L usini_sensors:module_mpu6050 U6
 U 1 1 61923299
-P 9575 4250
-F 0 "U6" H 10353 4646 50  0000 L CNN
-F 1 "module_mpu6050" H 10353 4555 50  0000 L CNN
-F 2 "usini_sensors:module_mpu6050" H 10025 4000 50  0001 C CNN
-F 3 "" H 9575 4500 50  0001 C CNN
-	1    9575 4250
+P 5050 6100
+F 0 "U6" H 5828 6496 50  0000 L CNN
+F 1 "module_mpu6050" H 5828 6405 50  0000 L CNN
+F 2 "usini_sensors:module_mpu6050" H 5500 5850 50  0001 C CNN
+F 3 "" H 5050 6350 50  0001 C CNN
+	1    5050 6100
 	1    0    0    -1  
 $EndComp
-Text GLabel 9275 3750 0    50   Input ~ 0
+Text GLabel 4750 5600 0    50   Input ~ 0
 MPU_SCL
 Wire Wire Line
-	9275 3750 9575 3750
-Text GLabel 3025 6925 2    50   Input ~ 0
-MPU_SCL
-Wire Wire Line
-	2800 6925 3025 6925
-$Comp
-L power:+3.3V #PWR09
-U 1 1 6195DE97
-P 2975 5525
-F 0 "#PWR09" H 2975 5375 50  0001 C CNN
-F 1 "+3.3V" V 2990 5653 50  0000 L CNN
-F 2 "" H 2975 5525 50  0001 C CNN
-F 3 "" H 2975 5525 50  0001 C CNN
-	1    2975 5525
-	0    1    1    0   
-$EndComp
+	4750 5600 5050 5600
 $Comp
 L power:+3.3V #PWR020
 U 1 1 6195F098
-P 9200 3550
-F 0 "#PWR020" H 9200 3400 50  0001 C CNN
-F 1 "+3.3V" V 9215 3678 50  0000 L CNN
-F 2 "" H 9200 3550 50  0001 C CNN
-F 3 "" H 9200 3550 50  0001 C CNN
-	1    9200 3550
+P 4675 5400
+F 0 "#PWR020" H 4675 5250 50  0001 C CNN
+F 1 "+3.3V" V 4690 5528 50  0000 L CNN
+F 2 "" H 4675 5400 50  0001 C CNN
+F 3 "" H 4675 5400 50  0001 C CNN
+	1    4675 5400
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2975 5525 2800 5525
-Wire Wire Line
-	9200 3550 9575 3550
+	4675 5400 5050 5400
 $Comp
 L power:GND #PWR021
 U 1 1 6197D5F1
-P 9200 3650
-F 0 "#PWR021" H 9200 3400 50  0001 C CNN
-F 1 "GND" V 9205 3522 50  0000 R CNN
-F 2 "" H 9200 3650 50  0001 C CNN
-F 3 "" H 9200 3650 50  0001 C CNN
-	1    9200 3650
+P 4675 5500
+F 0 "#PWR021" H 4675 5250 50  0001 C CNN
+F 1 "GND" V 4680 5372 50  0000 R CNN
+F 2 "" H 4675 5500 50  0001 C CNN
+F 3 "" H 4675 5500 50  0001 C CNN
+	1    4675 5500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9200 3650 9575 3650
-$Comp
-L power:GND #PWR011
-U 1 1 6198DA00
-P 3000 5325
-F 0 "#PWR011" H 3000 5075 50  0001 C CNN
-F 1 "GND" V 3005 5197 50  0000 R CNN
-F 2 "" H 3000 5325 50  0001 C CNN
-F 3 "" H 3000 5325 50  0001 C CNN
-	1    3000 5325
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3000 5325 2800 5325
+	4675 5500 5050 5500
 $Comp
 L Regulator_Linear:LM337_TO3 U11
 U 1 1 619B2700
 P 8200 5650
 F 0 "U11" H 8200 5408 50  0000 C CNN
-F 1 "LM337_TO3" H 8200 5499 50  0000 C CNN
-F 2 "footprints:SOT230P696X180-4N" H 8200 5450 50  0001 C CIN
+F 1 "MC7905BD2TR4G" H 8200 5499 50  0000 C CNN
+F 2 "footprints:TO254P1524X483-3" H 8200 5450 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm337-n.pdf" H 8200 5650 50  0001 C CNN
 	1    8200 5650
 	-1   0    0    1   
@@ -1070,19 +1004,6 @@ F 3 "~" H 7775 5850 50  0001 C CNN
 	1    7775 5850
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3VA #PWR030
-U 1 1 619BD0A2
-P 7350 5650
-F 0 "#PWR030" H 7350 5500 50  0001 C CNN
-F 1 "+3.3VA" V 7365 5777 50  0000 L CNN
-F 2 "" H 7350 5650 50  0001 C CNN
-F 3 "" H 7350 5650 50  0001 C CNN
-	1    7350 5650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7350 5650 7775 5650
 Wire Wire Line
 	7775 5750 7775 5650
 Connection ~ 7775 5650
@@ -1144,38 +1065,6 @@ F 3 "" H 9875 5850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1250 5125 1400 5125
-Wire Wire Line
-	1400 5225 1250 5225
-Wire Wire Line
-	1250 5425 1400 5425
-Wire Wire Line
-	1400 5525 1250 5525
-Wire Wire Line
-	1250 5625 1400 5625
-Wire Wire Line
-	1250 5725 1400 5725
-Wire Wire Line
-	1250 5925 1400 5925
-Wire Wire Line
-	1400 6025 1250 6025
-Wire Wire Line
-	1250 6125 1400 6125
-Wire Wire Line
-	1400 6225 1250 6225
-Wire Wire Line
-	1250 6425 1400 6425
-Wire Wire Line
-	1400 6525 1250 6525
-Wire Wire Line
-	1250 6625 1400 6625
-Wire Wire Line
-	1250 6725 1400 6725
-Wire Wire Line
-	1400 6925 1250 6925
-Wire Wire Line
-	1250 7025 1400 7025
-Wire Wire Line
 	9750 2900 10000 2900
 $Comp
 L Connector:Screw_Terminal_01x02 J3
@@ -1190,45 +1079,10 @@ F 3 "~" H 9550 3000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10000 3000 9750 3000
-$Comp
-L power:+3.3VA #PWR010
-U 1 1 61C4EC19
-P 3000 5225
-F 0 "#PWR010" H 3000 5075 50  0001 C CNN
-F 1 "+3.3VA" V 3015 5352 50  0000 L CNN
-F 2 "" H 3000 5225 50  0001 C CNN
-F 3 "" H 3000 5225 50  0001 C CNN
-	1    3000 5225
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3000 5225 2800 5225
-NoConn ~ 1400 6825
-NoConn ~ 1400 6325
-NoConn ~ 1400 5825
-NoConn ~ 1400 5325
-NoConn ~ 2800 5125
-NoConn ~ 2800 5425
-NoConn ~ 2800 5625
-NoConn ~ 2800 5725
-NoConn ~ 2800 5825
-NoConn ~ 2800 5925
-NoConn ~ 2800 6025
-NoConn ~ 2800 6125
-NoConn ~ 2800 6225
-NoConn ~ 2800 6325
-NoConn ~ 2800 6425
-NoConn ~ 2800 6525
-NoConn ~ 2800 6625
-NoConn ~ 2800 6725
-NoConn ~ 2800 6825
-NoConn ~ 2200 7225
-NoConn ~ 2100 7225
-NoConn ~ 2000 7225
-NoConn ~ 9575 4250
-NoConn ~ 9575 4150
-NoConn ~ 9575 4050
-NoConn ~ 9575 3950
+NoConn ~ 5050 6100
+NoConn ~ 5050 6000
+NoConn ~ 5050 5900
+NoConn ~ 5050 5800
 Wire Wire Line
 	6925 4225 7225 4225
 Wire Wire Line
@@ -2082,146 +1936,7 @@ Text GLabel 1150 4075 0    50   Input ~ 0
 GATE7
 Wire Wire Line
 	1650 4225 2250 4225
-$Comp
-L MCU_RaspberryPi_and_Boards:Pico U?
-U 1 1 6181702C
-P 2100 6075
-F 0 "U?" H 2100 7290 50  0000 C CNN
-F 1 "Pico" H 2100 7199 50  0000 C CNN
-F 2 "RPi_Pico:RPi_Pico_SMD_TH" V 2100 6075 50  0001 C CNN
-F 3 "" H 2100 6075 50  0001 C CNN
-	1    2100 6075
-	1    0    0    -1  
-$EndComp
-$Sheet
-S 4025 4975 2350 2650
-U 61839F90
-F0 "rp2040_min_req" 50
-F1 "rp2040_min_req.sch" 50
-F2 "GPIO0" I R 6375 5050 50 
-F3 "GPIO1" I R 6375 5150 50 
-F4 "GPIO2" I R 6375 5250 50 
-F5 "GPIO3" I R 6375 5350 50 
-F6 "GPIO4" I R 6375 5450 50 
-F7 "GPIO5" I R 6375 5550 50 
-F8 "GPIO6" I R 6375 5650 50 
-F9 "GPIO7" I R 6375 5750 50 
-F10 "GPIO8" I R 6375 5850 50 
-F11 "GPIO9" I R 6375 5950 50 
-F12 "GPIO10" I R 6375 6050 50 
-F13 "GPIO11" I R 6375 6150 50 
-F14 "GPIO12" I R 6375 6250 50 
-F15 "GPIO13" I R 6375 6350 50 
-F16 "GPIO14" I R 6375 6450 50 
-F17 "GPIO15" I R 6375 6550 50 
-F18 "GPIO16" I R 6375 6650 50 
-F19 "GPIO17" I R 6375 6750 50 
-F20 "GPIO18" I R 6375 6850 50 
-F21 "GPIO19" I R 6375 6950 50 
-F22 "GPIO20" I R 6375 7050 50 
-F23 "GPIO21" I R 6375 7150 50 
-F24 "GPIO22" I R 6375 7250 50 
-F25 "GPIO23" I R 6375 7350 50 
-F26 "GPIO24" I R 6375 7450 50 
-F27 "GPIO25" I R 6375 7550 50 
-F28 "GPIO26_ADC0" I L 4025 5050 50 
-F29 "GPIO27_ADC1" I L 4025 5125 50 
-F30 "GPIO28_ADC2" I L 4025 5200 50 
-F31 "GPIO29_ADC3" I L 4025 5275 50 
-F32 "SWD" I L 4025 5350 50 
-F33 "SWCLK" I L 4025 5425 50 
-F34 "RUN" I L 4025 5500 50 
-$EndSheet
-Text Notes 4875 4975 0    118  ~ 24
-RP2040\n
-Text GLabel 6475 5050 2    50   Input ~ 0
-GATE1
-Text GLabel 6475 5150 2    50   Input ~ 0
-GATE2
-Text GLabel 6475 5250 2    50   Input ~ 0
-GATE3
-Text GLabel 6475 5350 2    50   Input ~ 0
-GATE4
-Text GLabel 6475 5450 2    50   Input ~ 0
-GATE5
-Text GLabel 6475 5650 2    50   Input ~ 0
-GATE7
-Text GLabel 6475 5550 2    50   Input ~ 0
-GATE6
-Text GLabel 6475 5750 2    50   Input ~ 0
-GATE8
-Text GLabel 6475 5850 2    50   Input ~ 0
-GATE9
-Text GLabel 6475 5950 2    50   Input ~ 0
-GATE10
-Text GLabel 6475 6050 2    50   Input ~ 0
-GATE11
-Text GLabel 6475 6150 2    50   Input ~ 0
-GATE12
-Text GLabel 6475 6250 2    50   Input ~ 0
-GATE13
-Text GLabel 6475 6350 2    50   Input ~ 0
-GATE14
-Text GLabel 6475 6450 2    50   Input ~ 0
-GATE15
-Text GLabel 6475 6550 2    50   Input ~ 0
-GATE16
-Text GLabel 6475 6650 2    50   Input ~ 0
-MPU_SDA
-Text GLabel 6475 6750 2    50   Input ~ 0
-MPU_SCL
-Wire Wire Line
-	6475 6750 6375 6750
-Wire Wire Line
-	6375 6650 6475 6650
-Wire Wire Line
-	6475 6550 6375 6550
-Wire Wire Line
-	6375 6450 6475 6450
-Wire Wire Line
-	6475 6350 6375 6350
-Wire Wire Line
-	6375 6250 6475 6250
-Wire Wire Line
-	6375 6150 6475 6150
-Wire Wire Line
-	6475 6050 6375 6050
-Wire Wire Line
-	6375 5950 6475 5950
-Wire Wire Line
-	6475 5850 6375 5850
-Wire Wire Line
-	6375 5750 6475 5750
-Wire Wire Line
-	6475 5650 6375 5650
-Wire Wire Line
-	6375 5550 6475 5550
-Wire Wire Line
-	6475 5450 6375 5450
-Wire Wire Line
-	6375 5350 6475 5350
-Wire Wire Line
-	6375 5250 6475 5250
-Wire Wire Line
-	6475 5150 6375 5150
-Wire Wire Line
-	6375 5050 6475 5050
-NoConn ~ 4025 5500
-NoConn ~ 4025 5425
-NoConn ~ 4025 5350
-NoConn ~ 4025 5275
-NoConn ~ 4025 5200
-NoConn ~ 4025 5125
-NoConn ~ 4025 5050
-NoConn ~ 6375 7550
-NoConn ~ 6375 7450
-NoConn ~ 6375 7350
-NoConn ~ 6375 7250
-NoConn ~ 6375 7150
-NoConn ~ 6375 7050
-NoConn ~ 6375 6950
-NoConn ~ 6375 6850
-Text Notes 9650 3425 0    118  ~ 24
+Text Notes 5025 5250 0    118  ~ 24
 MPU6050\n
 Text Notes 7675 5300 0    118  ~ 24
 Voltage Reg\n
@@ -2235,4 +1950,176 @@ Wire Notes Line
 	475  4650 475  4675
 Text Notes 9825 5600 0    118  ~ 24
 XT60 PWR In\n
+$Comp
+L Connector:Raspberry_Pi_2_3 J5
+U 1 1 61846302
+P 2200 6250
+F 0 "J5" H 2200 7731 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 2200 7640 50  0000 C CNN
+F 2 "footprints:Pin_Header_Straight_2x20" H 2200 6250 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 2200 6250 50  0001 C CNN
+	1    2200 6250
+	1    0    0    -1  
+$EndComp
+Text GLabel 3125 5350 2    50   Input ~ 0
+GATE1
+Text GLabel 3125 5450 2    50   Input ~ 0
+GATE2
+Text GLabel 3125 5950 2    50   Input ~ 0
+GATE3
+Text GLabel 3125 6050 2    50   Input ~ 0
+GATE4
+Text GLabel 3125 6150 2    50   Input ~ 0
+GATE5
+Text GLabel 3125 6350 2    50   Input ~ 0
+GATE6
+Text GLabel 3125 6450 2    50   Input ~ 0
+GATE7
+Text GLabel 3125 6550 2    50   Input ~ 0
+GATE8
+Text GLabel 3125 6650 2    50   Input ~ 0
+GATE9
+Text GLabel 3125 6750 2    50   Input ~ 0
+GATE10
+Text GLabel 3125 6950 2    50   Input ~ 0
+GATE11
+Text GLabel 3125 7050 2    50   Input ~ 0
+GATE12
+Text GLabel 1250 5350 0    50   Input ~ 0
+GATE13
+Text GLabel 1250 5450 0    50   Input ~ 0
+GATE14
+Text GLabel 1250 5650 0    50   Input ~ 0
+GATE15
+Text GLabel 1250 5750 0    50   Input ~ 0
+GATE16
+Text GLabel 3125 5750 2    50   Input ~ 0
+MPU_SCL
+Text GLabel 3125 5650 2    50   Input ~ 0
+MPU_SDA
+Wire Wire Line
+	1250 5350 1400 5350
+Wire Wire Line
+	1400 5450 1250 5450
+Wire Wire Line
+	1250 5650 1400 5650
+Wire Wire Line
+	1400 5750 1250 5750
+Wire Wire Line
+	3000 5350 3125 5350
+Wire Wire Line
+	3125 5450 3000 5450
+Wire Wire Line
+	3000 5650 3125 5650
+Wire Wire Line
+	3125 5750 3000 5750
+Wire Wire Line
+	3000 5950 3125 5950
+Wire Wire Line
+	3125 6050 3000 6050
+Wire Wire Line
+	3000 6150 3125 6150
+Wire Wire Line
+	3000 6350 3125 6350
+Wire Wire Line
+	3125 6450 3000 6450
+Wire Wire Line
+	3000 6550 3125 6550
+Wire Wire Line
+	3125 6650 3000 6650
+Wire Wire Line
+	3000 6750 3125 6750
+Wire Wire Line
+	3000 6950 3125 6950
+Wire Wire Line
+	3125 7050 3000 7050
+$Comp
+L power:GND #PWR0137
+U 1 1 61B97828
+P 2575 7650
+F 0 "#PWR0137" H 2575 7400 50  0001 C CNN
+F 1 "GND" V 2580 7522 50  0000 R CNN
+F 2 "" H 2575 7650 50  0001 C CNN
+F 3 "" H 2575 7650 50  0001 C CNN
+	1    2575 7650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1800 7550 1800 7650
+Wire Wire Line
+	2500 7650 2500 7550
+Wire Wire Line
+	2400 7550 2400 7650
+Connection ~ 2400 7650
+Wire Wire Line
+	2400 7650 2500 7650
+Wire Wire Line
+	2300 7550 2300 7650
+Connection ~ 2300 7650
+Wire Wire Line
+	2300 7650 2400 7650
+Wire Wire Line
+	2200 7550 2200 7650
+Connection ~ 2200 7650
+Wire Wire Line
+	2200 7650 2300 7650
+Wire Wire Line
+	2100 7550 2100 7650
+Connection ~ 2100 7650
+Wire Wire Line
+	2000 7550 2000 7650
+Connection ~ 2000 7650
+Wire Wire Line
+	2000 7650 2100 7650
+Wire Wire Line
+	1900 7550 1900 7650
+Wire Wire Line
+	1800 7650 1900 7650
+Connection ~ 1900 7650
+Wire Wire Line
+	1900 7650 2000 7650
+Wire Wire Line
+	2100 7650 2200 7650
+Wire Wire Line
+	2575 7650 2500 7650
+Connection ~ 2500 7650
+NoConn ~ 1400 5850
+NoConn ~ 1400 6050
+NoConn ~ 1400 6150
+NoConn ~ 1400 6250
+NoConn ~ 1400 6450
+NoConn ~ 1400 6550
+NoConn ~ 1400 6650
+NoConn ~ 1400 6750
+NoConn ~ 1400 6850
+NoConn ~ 1400 6950
+$Comp
+L power:+5V #PWR?
+U 1 1 61F7DDC2
+P 7250 5650
+F 0 "#PWR?" H 7250 5500 50  0001 C CNN
+F 1 "+5V" V 7265 5778 50  0000 L CNN
+F 2 "" H 7250 5650 50  0001 C CNN
+F 3 "" H 7250 5650 50  0001 C CNN
+	1    7250 5650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7250 5650 7775 5650
+$Comp
+L power:+5V #PWR?
+U 1 1 61FA17A7
+P 1825 4950
+F 0 "#PWR?" H 1825 4800 50  0001 C CNN
+F 1 "+5V" V 1840 5078 50  0000 L CNN
+F 2 "" H 1825 4950 50  0001 C CNN
+F 3 "" H 1825 4950 50  0001 C CNN
+	1    1825 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1825 4950 2000 4950
+Wire Wire Line
+	2000 4950 2100 4950
+Connection ~ 2000 4950
 $EndSCHEMATC

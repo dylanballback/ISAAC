@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 29)
+    (drawings 28)
     (tracks 0)
     (zones 0)
     (modules 5)
@@ -376,9 +376,6 @@
   )
 
   (gr_line (start 180.062 68.27) (end 180.062 118.27) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_text "Select one of these board edges depending \nupon the type of socket that is used." (at 82.5 0.5) (layer Cmts.User)
-    (effects (font (size 1.5 1.5) (thickness 0.15)) (justify left))
-  )
   (gr_text "Dimensions taken from\nhttps://github.com/raspberrypi/hats/blob/master/hat-board-mechanical.pdf" (at 151.562 131.77) (layer Cmts.User)
     (effects (font (size 1.5 1.5) (thickness 0.15) italic))
   )

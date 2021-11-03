@@ -1,4 +1,4 @@
-update=Sunday, October 31, 2021 at 10:51:58 PM
+update=Monday, November 01, 2021 at 01:01:17 PM
 version=1
 last_client=pcbnew
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=ISAAC_V2.net
+LastNetListRead=ISAAC_V4.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
