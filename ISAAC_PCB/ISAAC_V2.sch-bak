@@ -2083,14 +2083,14 @@ GATE7
 Wire Wire Line
 	1650 4225 2250 4225
 $Comp
-L Connector:Raspberry_Pi_2_3 J?
-U 1 1 618160AE
-P -1350 6100
-F 0 "J?" H -1350 7581 50  0000 C CNN
-F 1 "Raspberry_Pi_2_3" H -1350 7490 50  0000 C CNN
-F 2 "" H -1350 6100 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H -1350 6100 50  0001 C CNN
-	1    -1350 6100
+L MCU_RaspberryPi_and_Boards:Pico U?
+U 1 1 6181702C
+P 2450 6175
+F 0 "U?" H 2450 7390 50  0000 C CNN
+F 1 "Pico" H 2450 7299 50  0000 C CNN
+F 2 "RPi_Pico:RPi_Pico_SMD_TH" V 2450 6175 50  0001 C CNN
+F 3 "" H 2450 6175 50  0001 C CNN
+	1    2450 6175
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

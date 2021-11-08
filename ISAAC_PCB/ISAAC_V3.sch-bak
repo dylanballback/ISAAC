@@ -829,64 +829,64 @@ Wire Wire Line
 Connection ~ 6025 4075
 Wire Wire Line
 	6025 4075 5975 4075
-Text GLabel 8925 975  0    50   Input ~ 0
+Text GLabel 9250 975  0    50   Input ~ 0
 SOL1
-Text GLabel 8925 1075 0    50   Input ~ 0
+Text GLabel 9250 1075 0    50   Input ~ 0
 SOL2
-Text GLabel 8925 1175 0    50   Input ~ 0
+Text GLabel 9250 1175 0    50   Input ~ 0
 SOL3
-Text GLabel 8925 1275 0    50   Input ~ 0
+Text GLabel 9250 1275 0    50   Input ~ 0
 SOL4
-Text GLabel 10225 975  2    50   Input ~ 0
+Text GLabel 10550 975  2    50   Input ~ 0
 SOL5
-Text GLabel 10225 1075 2    50   Input ~ 0
+Text GLabel 10550 1075 2    50   Input ~ 0
 SOL6
-Text GLabel 10225 1175 2    50   Input ~ 0
+Text GLabel 10550 1175 2    50   Input ~ 0
 SOL7
-Text GLabel 10225 1275 2    50   Input ~ 0
+Text GLabel 10550 1275 2    50   Input ~ 0
 SOL8
-Text GLabel 8900 2100 0    50   Input ~ 0
+Text GLabel 9250 1875 0    50   Input ~ 0
 SOL9
-Text GLabel 8900 2200 0    50   Input ~ 0
+Text GLabel 9250 1975 0    50   Input ~ 0
 SOL10
-Text GLabel 10200 2100 2    50   Input ~ 0
+Text GLabel 10550 1875 2    50   Input ~ 0
 SOL13
-Text GLabel 10200 2200 2    50   Input ~ 0
+Text GLabel 10550 1975 2    50   Input ~ 0
 SOL14
-Text GLabel 10200 2300 2    50   Input ~ 0
+Text GLabel 10550 2075 2    50   Input ~ 0
 SOL15
-Text GLabel 10200 2400 2    50   Input ~ 0
+Text GLabel 10550 2175 2    50   Input ~ 0
 SOL16
 Wire Wire Line
-	9800 2400 10200 2400
+	10150 2175 10550 2175
 Wire Wire Line
-	10200 2300 9800 2300
+	10550 2075 10150 2075
 Wire Wire Line
-	9800 2200 10200 2200
+	10150 1975 10550 1975
 Wire Wire Line
-	10200 2100 9800 2100
+	10550 1875 10150 1875
 Wire Wire Line
-	9300 2400 8900 2400
+	9650 2175 9250 2175
 Wire Wire Line
-	9300 2200 8900 2200
+	9650 1975 9250 1975
 Wire Wire Line
-	8900 2100 9300 2100
+	9250 1875 9650 1875
 Wire Wire Line
-	9825 1275 10225 1275
+	10150 1275 10550 1275
 Wire Wire Line
-	10225 1175 9825 1175
+	10550 1175 10150 1175
 Wire Wire Line
-	9825 1075 10225 1075
+	10150 1075 10550 1075
 Wire Wire Line
-	10225 975  9825 975 
+	10550 975  10150 975 
 Wire Wire Line
-	9325 1275 8925 1275
+	9650 1275 9250 1275
 Wire Wire Line
-	8925 1175 9325 1175
+	9250 1175 9650 1175
 Wire Wire Line
-	9325 1075 8925 1075
+	9650 1075 9250 1075
 Wire Wire Line
-	8925 975  9325 975 
+	9250 975  9650 975 
 $Comp
 L ISAAC-rescue:R_Small_US-Device R10
 U 1 1 61730CFA
@@ -901,30 +901,30 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x04_Top_Bottom J2
 U 1 1 616F6BC3
-P 9525 1075
-F 0 "J2" H 9575 1392 50  0000 C CNN
-F 1 "Conn_02x04_Top_Bottom" H 9575 1301 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal" H 9525 1075 50  0001 C CNN
-F 3 "~" H 9525 1075 50  0001 C CNN
-	1    9525 1075
+P 9850 1075
+F 0 "J2" H 9900 1392 50  0000 C CNN
+F 1 "Conn_02x04_Top_Bottom" H 9900 1301 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal" H 9850 1075 50  0001 C CNN
+F 3 "~" H 9850 1075 50  0001 C CNN
+	1    9850 1075
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x04_Top_Bottom J1
 U 1 1 61713E78
-P 9500 2200
-F 0 "J1" H 9550 2517 50  0000 C CNN
-F 1 "Conn_02x04_Top_Bottom" H 9550 2426 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal" H 9500 2200 50  0001 C CNN
-F 3 "~" H 9500 2200 50  0001 C CNN
-	1    9500 2200
+P 9850 1975
+F 0 "J1" H 9900 2292 50  0000 C CNN
+F 1 "Conn_02x04_Top_Bottom" H 9900 2201 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal" H 9850 1975 50  0001 C CNN
+F 3 "~" H 9850 1975 50  0001 C CNN
+	1    9850 1975
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8900 2300 9300 2300
-Text GLabel 8900 2400 0    50   Input ~ 0
+	9250 2075 9650 2075
+Text GLabel 9250 2175 0    50   Input ~ 0
 SOL12
-Text GLabel 8900 2300 0    50   Input ~ 0
+Text GLabel 9250 2075 0    50   Input ~ 0
 SOL11
 Text GLabel 1250 5225 0    50   Input ~ 0
 GATE2
@@ -958,29 +958,29 @@ Text GLabel 1250 6925 0    50   Input ~ 0
 GATE15
 Text GLabel 1250 7025 0    50   Input ~ 0
 GATE16
-Text GLabel 8650 4875 0    50   Input ~ 0
+Text GLabel 9275 3850 0    50   Input ~ 0
 MPU_SDA
 Text GLabel 3025 7025 2    50   Input ~ 0
 MPU_SDA
 Wire Wire Line
-	8650 4875 8950 4875
+	9275 3850 9575 3850
 Wire Wire Line
 	2800 7025 3025 7025
 $Comp
 L usini_sensors:module_mpu6050 U6
 U 1 1 61923299
-P 8950 5275
-F 0 "U6" H 9728 5671 50  0000 L CNN
-F 1 "module_mpu6050" H 9728 5580 50  0000 L CNN
-F 2 "usini_sensors:module_mpu6050" H 9400 5025 50  0001 C CNN
-F 3 "" H 8950 5525 50  0001 C CNN
-	1    8950 5275
+P 9575 4250
+F 0 "U6" H 10353 4646 50  0000 L CNN
+F 1 "module_mpu6050" H 10353 4555 50  0000 L CNN
+F 2 "usini_sensors:module_mpu6050" H 10025 4000 50  0001 C CNN
+F 3 "" H 9575 4500 50  0001 C CNN
+	1    9575 4250
 	1    0    0    -1  
 $EndComp
-Text GLabel 8650 4775 0    50   Input ~ 0
+Text GLabel 9275 3750 0    50   Input ~ 0
 MPU_SCL
 Wire Wire Line
-	8650 4775 8950 4775
+	9275 3750 9575 3750
 Text GLabel 3025 6925 2    50   Input ~ 0
 MPU_SCL
 Wire Wire Line
@@ -999,31 +999,31 @@ $EndComp
 $Comp
 L power:+3.3V #PWR020
 U 1 1 6195F098
-P 8575 4575
-F 0 "#PWR020" H 8575 4425 50  0001 C CNN
-F 1 "+3.3V" V 8590 4703 50  0000 L CNN
-F 2 "" H 8575 4575 50  0001 C CNN
-F 3 "" H 8575 4575 50  0001 C CNN
-	1    8575 4575
+P 9200 3550
+F 0 "#PWR020" H 9200 3400 50  0001 C CNN
+F 1 "+3.3V" V 9215 3678 50  0000 L CNN
+F 2 "" H 9200 3550 50  0001 C CNN
+F 3 "" H 9200 3550 50  0001 C CNN
+	1    9200 3550
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2975 5525 2800 5525
 Wire Wire Line
-	8575 4575 8950 4575
+	9200 3550 9575 3550
 $Comp
 L power:GND #PWR021
 U 1 1 6197D5F1
-P 8575 4675
-F 0 "#PWR021" H 8575 4425 50  0001 C CNN
-F 1 "GND" V 8580 4547 50  0000 R CNN
-F 2 "" H 8575 4675 50  0001 C CNN
-F 3 "" H 8575 4675 50  0001 C CNN
-	1    8575 4675
+P 9200 3650
+F 0 "#PWR021" H 9200 3400 50  0001 C CNN
+F 1 "GND" V 9205 3522 50  0000 R CNN
+F 2 "" H 9200 3650 50  0001 C CNN
+F 3 "" H 9200 3650 50  0001 C CNN
+	1    9200 3650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8575 4675 8950 4675
+	9200 3650 9575 3650
 $Comp
 L power:GND #PWR011
 U 1 1 6198DA00
@@ -1176,20 +1176,20 @@ Wire Wire Line
 Wire Wire Line
 	1250 7025 1400 7025
 Wire Wire Line
-	9725 3725 9975 3725
+	9750 2900 10000 2900
 $Comp
 L Connector:Screw_Terminal_01x02 J3
 U 1 1 61C366F7
-P 9525 3825
-F 0 "J3" H 9443 3500 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 9443 3591 50  0000 C CNN
-F 2 "footprints:TE_282837-2" H 9525 3825 50  0001 C CNN
-F 3 "~" H 9525 3825 50  0001 C CNN
-	1    9525 3825
+P 9550 3000
+F 0 "J3" H 9468 2675 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 9468 2766 50  0000 C CNN
+F 2 "footprints:TE_282837-2" H 9550 3000 50  0001 C CNN
+F 3 "~" H 9550 3000 50  0001 C CNN
+	1    9550 3000
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9975 3825 9725 3825
+	10000 3000 9750 3000
 $Comp
 L power:+3.3VA #PWR010
 U 1 1 61C4EC19
@@ -1225,10 +1225,10 @@ NoConn ~ 2800 6825
 NoConn ~ 2200 7225
 NoConn ~ 2100 7225
 NoConn ~ 2000 7225
-NoConn ~ 8950 5275
-NoConn ~ 8950 5175
-NoConn ~ 8950 5075
-NoConn ~ 8950 4975
+NoConn ~ 9575 4250
+NoConn ~ 9575 4150
+NoConn ~ 9575 4050
+NoConn ~ 9575 3950
 Wire Wire Line
 	6925 4225 7225 4225
 Wire Wire Line
@@ -1322,69 +1322,58 @@ F 3 "" H 8825 5650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:VCC #PWR0103
-U 1 1 625F6F3A
-P 9975 3825
-F 0 "#PWR0103" H 9975 3675 50  0001 C CNN
-F 1 "VCC" V 9990 3953 50  0000 L CNN
-F 2 "" H 9975 3825 50  0001 C CNN
-F 3 "" H 9975 3825 50  0001 C CNN
-	1    9975 3825
-	0    1    1    0   
-$EndComp
-$Comp
 L power:VCC #PWR0104
 U 1 1 62624C30
-P 9975 3725
-F 0 "#PWR0104" H 9975 3575 50  0001 C CNN
-F 1 "VCC" V 9990 3853 50  0000 L CNN
-F 2 "" H 9975 3725 50  0001 C CNN
-F 3 "" H 9975 3725 50  0001 C CNN
-	1    9975 3725
+P 10000 2900
+F 0 "#PWR0104" H 10000 2750 50  0001 C CNN
+F 1 "VCC" V 10015 3028 50  0000 L CNN
+F 2 "" H 10000 2900 50  0001 C CNN
+F 3 "" H 10000 2900 50  0001 C CNN
+	1    10000 2900
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 6265BDBA
-P 10325 4550
-F 0 "H1" H 10425 4596 50  0000 L CNN
-F 1 "MountingHole" H 10425 4505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 10325 4550 50  0001 C CNN
-F 3 "~" H 10325 4550 50  0001 C CNN
-	1    10325 4550
+P 9625 4700
+F 0 "H1" H 9725 4746 50  0000 L CNN
+F 1 "MountingHole" H 9725 4655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9625 4700 50  0001 C CNN
+F 3 "~" H 9625 4700 50  0001 C CNN
+	1    9625 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 6265C573
-P 10325 4775
-F 0 "H2" H 10425 4821 50  0000 L CNN
-F 1 "MountingHole" H 10425 4730 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 10325 4775 50  0001 C CNN
-F 3 "~" H 10325 4775 50  0001 C CNN
-	1    10325 4775
+P 9625 4925
+F 0 "H2" H 9725 4971 50  0000 L CNN
+F 1 "MountingHole" H 9725 4880 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9625 4925 50  0001 C CNN
+F 3 "~" H 9625 4925 50  0001 C CNN
+	1    9625 4925
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 6265CC0F
-P 10325 5000
-F 0 "H3" H 10425 5046 50  0000 L CNN
-F 1 "MountingHole" H 10425 4955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 10325 5000 50  0001 C CNN
-F 3 "~" H 10325 5000 50  0001 C CNN
-	1    10325 5000
+P 10400 4725
+F 0 "H3" H 10500 4771 50  0000 L CNN
+F 1 "MountingHole" H 10500 4680 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10400 4725 50  0001 C CNN
+F 3 "~" H 10400 4725 50  0001 C CNN
+	1    10400 4725
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 6265D090
-P 10325 5200
-F 0 "H4" H 10425 5246 50  0000 L CNN
-F 1 "MountingHole" H 10425 5155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 10325 5200 50  0001 C CNN
-F 3 "~" H 10325 5200 50  0001 C CNN
-	1    10325 5200
+P 10400 4925
+F 0 "H4" H 10500 4971 50  0000 L CNN
+F 1 "MountingHole" H 10500 4880 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10400 4925 50  0001 C CNN
+F 3 "~" H 10400 4925 50  0001 C CNN
+	1    10400 4925
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2221,4 +2210,29 @@ NoConn ~ 6375 7150
 NoConn ~ 6375 7050
 NoConn ~ 6375 6950
 NoConn ~ 6375 6850
+Text Notes 9650 3425 0    118  ~ 24
+MPU6050\n
+Text Notes 7675 5300 0    118  ~ 24
+Voltage Reg\n
+Text Notes 750  725  0    118  ~ 24
+MOSFETS\n
+Wire Notes Line
+	8600 475  8600 4650
+Wire Notes Line
+	8600 4650 475  4650
+Wire Notes Line
+	475  4650 475  4675
+Text Notes 9825 5600 0    118  ~ 24
+XT60 PWR In\n
+$Comp
+L power:GND #PWR?
+U 1 1 618DC8F5
+P 10000 3000
+F 0 "#PWR?" H 10000 2750 50  0001 C CNN
+F 1 "GND" V 10005 2872 50  0000 R CNN
+F 2 "" H 10000 3000 50  0001 C CNN
+F 3 "" H 10000 3000 50  0001 C CNN
+	1    10000 3000
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

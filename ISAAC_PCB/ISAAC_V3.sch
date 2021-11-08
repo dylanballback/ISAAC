@@ -926,46 +926,10 @@ Text GLabel 9250 2175 0    50   Input ~ 0
 SOL12
 Text GLabel 9250 2075 0    50   Input ~ 0
 SOL11
-Text GLabel 1250 5225 0    50   Input ~ 0
-GATE2
-Text GLabel 1250 5125 0    50   Input ~ 0
-GATE1
-Text GLabel 1250 6225 0    50   Input ~ 0
-GATE10
-Text GLabel 1250 6125 0    50   Input ~ 0
-GATE9
-Text GLabel 1250 6025 0    50   Input ~ 0
-GATE8
-Text GLabel 1250 5925 0    50   Input ~ 0
-GATE7
-Text GLabel 1250 5725 0    50   Input ~ 0
-GATE6
-Text GLabel 1250 5625 0    50   Input ~ 0
-GATE5
-Text GLabel 1250 5525 0    50   Input ~ 0
-GATE4
-Text GLabel 1250 5425 0    50   Input ~ 0
-GATE3
-Text GLabel 1250 6425 0    50   Input ~ 0
-GATE11
-Text GLabel 1250 6525 0    50   Input ~ 0
-GATE12
-Text GLabel 1250 6625 0    50   Input ~ 0
-GATE13
-Text GLabel 1250 6725 0    50   Input ~ 0
-GATE14
-Text GLabel 1250 6925 0    50   Input ~ 0
-GATE15
-Text GLabel 1250 7025 0    50   Input ~ 0
-GATE16
 Text GLabel 9275 3850 0    50   Input ~ 0
-MPU_SDA
-Text GLabel 3025 7025 2    50   Input ~ 0
 MPU_SDA
 Wire Wire Line
 	9275 3850 9575 3850
-Wire Wire Line
-	2800 7025 3025 7025
 $Comp
 L usini_sensors:module_mpu6050 U6
 U 1 1 61923299
@@ -981,21 +945,6 @@ Text GLabel 9275 3750 0    50   Input ~ 0
 MPU_SCL
 Wire Wire Line
 	9275 3750 9575 3750
-Text GLabel 3025 6925 2    50   Input ~ 0
-MPU_SCL
-Wire Wire Line
-	2800 6925 3025 6925
-$Comp
-L power:+3.3V #PWR09
-U 1 1 6195DE97
-P 2975 5525
-F 0 "#PWR09" H 2975 5375 50  0001 C CNN
-F 1 "+3.3V" V 2990 5653 50  0000 L CNN
-F 2 "" H 2975 5525 50  0001 C CNN
-F 3 "" H 2975 5525 50  0001 C CNN
-	1    2975 5525
-	0    1    1    0   
-$EndComp
 $Comp
 L power:+3.3V #PWR020
 U 1 1 6195F098
@@ -1007,8 +956,6 @@ F 3 "" H 9200 3550 50  0001 C CNN
 	1    9200 3550
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2975 5525 2800 5525
 Wire Wire Line
 	9200 3550 9575 3550
 $Comp
@@ -1024,19 +971,6 @@ F 3 "" H 9200 3650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9200 3650 9575 3650
-$Comp
-L power:GND #PWR011
-U 1 1 6198DA00
-P 3000 5325
-F 0 "#PWR011" H 3000 5075 50  0001 C CNN
-F 1 "GND" V 3005 5197 50  0000 R CNN
-F 2 "" H 3000 5325 50  0001 C CNN
-F 3 "" H 3000 5325 50  0001 C CNN
-	1    3000 5325
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3000 5325 2800 5325
 $Comp
 L Regulator_Linear:LM337_TO3 U11
 U 1 1 619B2700
@@ -1144,38 +1078,6 @@ F 3 "" H 9875 5850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1250 5125 1400 5125
-Wire Wire Line
-	1400 5225 1250 5225
-Wire Wire Line
-	1250 5425 1400 5425
-Wire Wire Line
-	1400 5525 1250 5525
-Wire Wire Line
-	1250 5625 1400 5625
-Wire Wire Line
-	1250 5725 1400 5725
-Wire Wire Line
-	1250 5925 1400 5925
-Wire Wire Line
-	1400 6025 1250 6025
-Wire Wire Line
-	1250 6125 1400 6125
-Wire Wire Line
-	1400 6225 1250 6225
-Wire Wire Line
-	1250 6425 1400 6425
-Wire Wire Line
-	1400 6525 1250 6525
-Wire Wire Line
-	1250 6625 1400 6625
-Wire Wire Line
-	1250 6725 1400 6725
-Wire Wire Line
-	1400 6925 1250 6925
-Wire Wire Line
-	1250 7025 1400 7025
-Wire Wire Line
 	9750 2900 10000 2900
 $Comp
 L Connector:Screw_Terminal_01x02 J3
@@ -1190,41 +1092,6 @@ F 3 "~" H 9550 3000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10000 3000 9750 3000
-$Comp
-L power:+3.3VA #PWR010
-U 1 1 61C4EC19
-P 3000 5225
-F 0 "#PWR010" H 3000 5075 50  0001 C CNN
-F 1 "+3.3VA" V 3015 5352 50  0000 L CNN
-F 2 "" H 3000 5225 50  0001 C CNN
-F 3 "" H 3000 5225 50  0001 C CNN
-	1    3000 5225
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3000 5225 2800 5225
-NoConn ~ 1400 6825
-NoConn ~ 1400 6325
-NoConn ~ 1400 5825
-NoConn ~ 1400 5325
-NoConn ~ 2800 5125
-NoConn ~ 2800 5425
-NoConn ~ 2800 5625
-NoConn ~ 2800 5725
-NoConn ~ 2800 5825
-NoConn ~ 2800 5925
-NoConn ~ 2800 6025
-NoConn ~ 2800 6125
-NoConn ~ 2800 6225
-NoConn ~ 2800 6325
-NoConn ~ 2800 6425
-NoConn ~ 2800 6525
-NoConn ~ 2800 6625
-NoConn ~ 2800 6725
-NoConn ~ 2800 6825
-NoConn ~ 2200 7225
-NoConn ~ 2100 7225
-NoConn ~ 2000 7225
 NoConn ~ 9575 4250
 NoConn ~ 9575 4150
 NoConn ~ 9575 4050
@@ -1319,17 +1186,6 @@ F 1 "VCC" V 8840 5778 50  0000 L CNN
 F 2 "" H 8825 5650 50  0001 C CNN
 F 3 "" H 8825 5650 50  0001 C CNN
 	1    8825 5650
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VCC #PWR0103
-U 1 1 625F6F3A
-P 10000 3000
-F 0 "#PWR0103" H 10000 2850 50  0001 C CNN
-F 1 "VCC" V 10015 3128 50  0000 L CNN
-F 2 "" H 10000 3000 50  0001 C CNN
-F 3 "" H 10000 3000 50  0001 C CNN
-	1    10000 3000
 	0    1    1    0   
 $EndComp
 $Comp
@@ -2082,17 +1938,6 @@ Text GLabel 1150 4075 0    50   Input ~ 0
 GATE7
 Wire Wire Line
 	1650 4225 2250 4225
-$Comp
-L MCU_RaspberryPi_and_Boards:Pico U?
-U 1 1 6181702C
-P 2100 6075
-F 0 "U?" H 2100 7290 50  0000 C CNN
-F 1 "Pico" H 2100 7199 50  0000 C CNN
-F 2 "RPi_Pico:RPi_Pico_SMD_TH" V 2100 6075 50  0001 C CNN
-F 3 "" H 2100 6075 50  0001 C CNN
-	1    2100 6075
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 4025 4975 2350 2650
 U 61839F90
@@ -2235,4 +2080,15 @@ Wire Notes Line
 	475  4650 475  4675
 Text Notes 9825 5600 0    118  ~ 24
 XT60 PWR In\n
+$Comp
+L power:GND #PWR0103
+U 1 1 618DC8F5
+P 10000 3000
+F 0 "#PWR0103" H 10000 2750 50  0001 C CNN
+F 1 "GND" V 10005 2872 50  0000 R CNN
+F 2 "" H 10000 3000 50  0001 C CNN
+F 3 "" H 10000 3000 50  0001 C CNN
+	1    10000 3000
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
